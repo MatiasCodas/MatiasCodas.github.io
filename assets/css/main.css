@@ -3232,8 +3232,8 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			height: 100%;
-			background-color: #212931;
+			height: 150%;
+			background-color: #000000;
 			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
@@ -3261,7 +3261,7 @@ input, select, textarea {
 			background: #1e252d;
 			content: '';
 			display: block;
-			height: 100%;
+			height: 10%;
 			left: 0;
 			opacity: 0;
 			position: fixed;
@@ -3310,7 +3310,7 @@ input, select, textarea {
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 100vh;
+		min-height: 40vh;
 	}
 
 		#intro input, #intro select, #intro textarea {
@@ -4496,7 +4496,7 @@ input, select, textarea {
 		top: 0.75rem;
 		right: 0.75rem;
 		border: 0;
-		color: #ffffff;
+		color: #C0C0C0;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.9rem;
 		font-weight: 900;
